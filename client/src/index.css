@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gelasio&family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import "@flaticon/flaticon-uicons/css/all/all";
 
 @tailwind base;
@@ -44,7 +44,28 @@
     }
 
     .container {
-        @apply mx-auto;
+        @apply mx-auto w-[1280px];
+    }
+
+    .navbar-logo-wrapper {
+        @apply float-left bottom-0;
+    }
+
+    .navbar-logo-wrapper
+    .navbar-logo {
+        @apply bg-[#1d5167] bg-[50%] bg-no-repeat bg-[34px_auto] rounded float-left h-[30px] w-[60px] mr-2.5 my-2 p-2.5;
+    }
+
+    .navbar-logo {
+        
+    }
+
+    .navbar-menu {
+        @apply m-0 p-0;
+    }
+
+    .navbar-menu__item {
+        @apply float-left font-bold h-[46px] leading-[46px] leading-[2.875rem] overflow-hidden text-center px-[6px] py-0;
     }
 
     /*  */

@@ -51,14 +51,10 @@
         @apply float-left bottom-0;
     }
 
-    .navbar-logo-wrapper
+    .navbar-logo-wrapper 
     .navbar-logo {
-        @apply bg-[#1d5167] bg-[50%] bg-no-repeat bg-[34px_auto] rounded float-left h-[30px] w-[60px] mr-2.5 my-2 p-2.5;
-    }
-
-    .navbar-logo {
-        
-    }
+        @apply bg-[#1d5167] bg-[50%] bg-no-repeat bg-[34px_auto] rounded float-left h-[30px] w-[60px] mr-[10px] my-[8px] p-[10px];
+      }
 
     .navbar-menu {
         @apply m-0 p-0;
@@ -66,6 +62,40 @@
 
     .navbar-menu__item {
         @apply float-left font-bold h-[46px] leading-[46px] leading-[2.875rem] overflow-hidden text-center px-[6px] py-0;
+    }
+
+    .navbar-search {
+        @apply block float-right relative w-[200px];
+    }
+
+    .navbar-search 
+    .search-input {
+        @apply rounded-[30px] h-[30px] mr-[10px] mt-[8px] pl-[20px] pr-[50px] py-[8px] w-full;
+        background-color: #e0e0e0;
+        border: none;
+    }
+
+    .navbar-search 
+    .search-submit {
+        @apply bg-transparent h-[30px] leading-[30px] absolute text-center w-[40px] right-0 top-[8px];
+        border: none;
+    }
+
+    .navbar-user {
+        @apply float-right relative;
+    }
+
+    .navbar-user .login {
+        @apply block float-right font-bold h-[46px] leading-[46px] overflow-hidden pl-[10px] pr-[10px];
+    }
+
+    .navbar-user .guest-menu {
+        @apply cursor-pointer float-right h-[46px] w-[14px] relative ;
+        padding: 10px 20px;
+    }
+
+    .navbar-user .icon {
+        @apply inline-block relative top-[3px];
     }
 
     /*  */

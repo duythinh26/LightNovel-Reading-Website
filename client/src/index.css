@@ -60,8 +60,13 @@
         @apply m-0 p-0;
     }
 
-    .navbar-menu__item {
-        @apply float-left font-bold h-[46px] leading-[46px] leading-[2.875rem] overflow-hidden text-center px-[6px] py-0;
+    .navbar-menu .navbar-menu__item {
+        @apply float-left font-bold h-[46px] leading-[46px] overflow-hidden text-center px-[6px] py-0;
+    }
+
+    .navbar-menu .navbar-menu__item:hover {
+        @apply opacity-50;
+        color: inherit;
     }
 
     .navbar-search {
